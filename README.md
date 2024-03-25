@@ -2,12 +2,6 @@
 
 This is a repository for a ZMK Firmware for Ergonaut One keyboard.
 
-## Default keymap
-
-Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/13d0f7ae7a8b5835efcd23d61f50336a)
-
-This layout is heavily inspired from [Watchman 42-key layout](https://github.com/aroum/Watchman-layouts)
-
 ## FAQ
 
 - [FAQ](#faq)
