@@ -46,6 +46,16 @@
             bindings = <&kp RBKT>;
             key-positions = <20 21>;
         };
+
+        queer-bracket-left {
+            bindings = <&kp LBRC>;
+            key-positions = <13 14>;
+        };
+
+        queer-bracket-right {
+            bindings = <&kp RBRC>;
+            key-positions = <22 21>;
+        };
     };
 
     keymap {
