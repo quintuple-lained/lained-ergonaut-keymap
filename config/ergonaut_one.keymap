@@ -27,22 +27,22 @@
     combos {
         compatible = "zmk,combos";
 
-        bracket-square-left {
-            bindings = <&kp LBKT>;
-            key-positions = <15 14>;
-        };
-
-        Bracket-left {
+        bracket-left {
             bindings = <&kp LPAR>;
             key-positions = <15 16>;
         };
 
-        Bracket-Right {
+        bracket-Right {
             bindings = <&kp RPAR>;
             key-positions = <19 20>;
         };
 
-        Bracket-square-Right {
+        square-bracket-left {
+            bindings = <&kp LBKT>;
+            key-positions = <15 14>;
+        };
+
+        square-bracket-Right {
             bindings = <&kp RBKT>;
             key-positions = <20 21>;
         };
