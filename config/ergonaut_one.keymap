@@ -41,6 +41,11 @@
             bindings = <&kp RPAR>;
             key-positions = <19 20>;
         };
+
+        Bracket-square-Right {
+            bindings = <&kp RBKT>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
