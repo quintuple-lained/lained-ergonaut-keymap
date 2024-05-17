@@ -30,16 +30,19 @@
         bracket-left {
             bindings = <&kp LPAR>;
             key-positions = <15 16>;
+            layers = <0 1>;
         };
 
         bracket-Right {
             bindings = <&kp RPAR>;
             key-positions = <19 20>;
+            layers = <0 1>;
         };
 
         square-bracket-left {
             bindings = <&kp LBKT>;
             key-positions = <15 14>;
+            layers = <0 1>;
         };
 
         square-bracket-Right {
