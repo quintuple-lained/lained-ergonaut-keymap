@@ -48,36 +48,43 @@
         square-bracket-Right {
             bindings = <&kp RBKT>;
             key-positions = <20 21>;
+            layers = <0 1>;
         };
 
         queer-bracket-left {
             bindings = <&kp LBRC>;
             key-positions = <13 14>;
+            layers = <0 1>;
         };
 
         queer-bracket-right {
             bindings = <&kp RBRC>;
             key-positions = <22 21>;
+            layers = <0 1>;
         };
 
         home {
             bindings = <&kp HOME>;
             key-positions = <7 8>;
+            layers = <0 1>;
         };
 
         end {
             bindings = <&kp END>;
             key-positions = <31 32>;
+            layers = <0 1>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <3 4>;
+            layers = <0 1>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <27 28>;
+            layers = <0 1>;
         };
     };
 
