@@ -86,6 +86,16 @@
             key-positions = <27 28>;
             layers = <0 1>;
         };
+
+        angled_brackets_left {
+            bindings = <&kp LT>;
+            key-positions = <25 26>;
+        };
+
+        angled_brackets_right {
+            bindings = <&kp GT>;
+            key-positions = <33 34>;
+        };
     };
 
     keymap {
