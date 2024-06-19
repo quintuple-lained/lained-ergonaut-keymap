@@ -15,7 +15,7 @@ layers:
   - {t: '`', h: Ctrl}
   - {t: A, h: LEFT GUI}
   - {t: R, h: LEFT ALT}
-  - {t: T, h: LSHIFT}
+  - {t: S, h: LSHIFT}
   - {t: T, h: RIGHT CONTROL}
   - G
   - M
@@ -250,4 +250,7 @@ combos:
   l: [default, qwerty]
 - p: [33, 34]
   k: '>'
+  l: [default, qwerty]
+- p: [26, 27]
+  k: '='
   l: [default, qwerty]
