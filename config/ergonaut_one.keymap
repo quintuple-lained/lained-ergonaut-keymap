@@ -98,6 +98,12 @@
             key-positions = <33 34>;
             layers = <0 1>;
         };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <26 27>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
