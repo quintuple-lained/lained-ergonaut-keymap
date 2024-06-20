@@ -371,6 +371,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
 <text x="728" y="42" class="combo tap">:</text>
 </g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
+<text x="168" y="32" class="combo tap"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-lower">
@@ -557,6 +561,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
+<text x="168" y="32" class="combo tap"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-raise">
@@ -731,6 +739,10 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
+<text x="168" y="32" class="combo tap"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
 </g>
 </g>
 </g>
@@ -933,6 +945,10 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
+<text x="168" y="32" class="combo tap"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
 </g>
 </g>
 </g>

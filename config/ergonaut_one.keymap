@@ -110,6 +110,11 @@
             key-positions = <9 10>;
             layers = <0 1>;
         };
+
+        screenshot {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {

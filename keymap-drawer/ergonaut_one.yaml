@@ -257,3 +257,5 @@ combos:
 - p: [9, 10]
   k: ':'
   l: [default, qwerty]
+- p: [2, 3]
+  k: PRINTSCREEN
