@@ -254,3 +254,6 @@ combos:
 - p: [26, 27]
   k: '='
   l: [default, qwerty]
+- p: [9, 10]
+  k: ':'
+  l: [default, qwerty]

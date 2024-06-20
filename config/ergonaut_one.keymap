@@ -104,6 +104,12 @@
             key-positions = <26 27>;
             layers = <0 1>;
         };
+
+        lazy_colon {
+            bindings = <&kp COLON>;
+            key-positions = <9 10>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
