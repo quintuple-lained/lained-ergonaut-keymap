@@ -114,6 +114,7 @@
         screenshot {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <2 3>;
+            layers = <0 1>;
         };
     };
 
