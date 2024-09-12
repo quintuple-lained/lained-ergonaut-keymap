@@ -260,3 +260,5 @@ combos:
 - p: [2, 3]
   k: PRINTSCREEN
   l: [default, qwerty]
+- p: [37, 10, 9]
+  k: '&rust_double_colon'
