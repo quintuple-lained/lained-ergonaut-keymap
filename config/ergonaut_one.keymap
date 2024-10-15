@@ -130,6 +130,13 @@
             bindings = <&kp COLON &kp COLON>;
             label = "RUST_DOUBLE_COLON";
         };
+
+        alt_f4: alt_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(F4)>;
+            label = "ALT_F4";
+        };
     };
 
     keymap {
@@ -166,7 +173,7 @@
             bindings = <
 &mt LGUI KP_NUM  &none  &none  &none   &none   &none            &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
 &mt LCTRL EQUAL  &none  &none  &none   &none   &kp PRINTSCREEN  &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
-&kp LALT         &none  &none  &none   &none   &none            &kp C_VOL_DN  &kp END   &kp DOWN   &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
+&kp LALT         &none  &none  &none   &none   &none            &kp C_VOL_DN  &kp END   &alt_f4    &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
                                &trans  &trans  &trans           &trans        &trans    &trans
             >;
         };
