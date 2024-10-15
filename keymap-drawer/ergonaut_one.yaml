@@ -21,7 +21,7 @@ layers:
   - M
   - {t: N, h: RIGHT CONTROL}
   - {t: E, h: RSHIFT}
-  - {t: I, h: RIGHT ALT}
+  - {t: I, h: LEFT ALT}
   - {t: O, h: LMETA}
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
