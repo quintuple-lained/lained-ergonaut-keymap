@@ -118,13 +118,13 @@
         };
 
         quickrust {
-            bindings = <&rust_double_colon>;
-            key-positions = <37 10 9>;
+            bindings = <&colonX2>;
+            key-positions = <33 32>;
         };
     };
 
     macros {
-        rust_double_colon: rust_double_colon {
+        colonX2: rust_double_colon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp COLON &kp COLON>;
