@@ -14,14 +14,14 @@ layers:
   - '['
   - {t: '`', h: Ctrl}
   - {t: A, h: LEFT GUI}
-  - {t: R, h: LEFT ALT}
-  - {t: S, h: LSHIFT}
+  - {t: R, h: LSHIFT}
+  - {t: S, h: Alt}
   - {t: T, h: RIGHT CONTROL}
   - G
   - M
   - {t: N, h: RIGHT CONTROL}
-  - {t: E, h: RSHIFT}
-  - {t: I, h: LEFT ALT}
+  - {t: E, h: Alt}
+  - {t: I, h: RSHIFT}
   - {t: O, h: LMETA}
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
