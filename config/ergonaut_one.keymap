@@ -120,6 +120,7 @@
         quickrust {
             bindings = <&colonX2>;
             key-positions = <33 32>;
+            layers = <0 1>;
         };
     };
 
