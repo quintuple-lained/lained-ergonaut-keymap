@@ -126,6 +126,7 @@
         menu {
             bindings = <&kp K_APPLICATION>;
             key-positions = <2 1>;
+            layers = <0 1>;
         };
     };
 
