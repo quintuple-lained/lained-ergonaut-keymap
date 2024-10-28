@@ -122,6 +122,11 @@
             key-positions = <33 32>;
             layers = <0 1>;
         };
+
+        menu {
+            bindings = <&kp K_APPLICATION>;
+            key-positions = <2 1>;
+        };
     };
 
     macros {

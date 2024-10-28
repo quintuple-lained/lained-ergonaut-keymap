@@ -263,3 +263,5 @@ combos:
 - p: [33, 32]
   k: '&colonX2'
   l: [default, qwerty]
+- p: [2, 1]
+  k: APPLICATION
