@@ -215,54 +215,54 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [15, 16]
-  k: (
-  l: [default, qwerty]
-- p: [19, 20]
-  k: )
-  l: [default, qwerty]
-- p: [15, 14]
-  k: '['
-  l: [default, qwerty]
-- p: [20, 21]
-  k: ']'
+- p: [2, 1]
+  k: APPLICATION
   l: [default, qwerty]
 - p: [13, 14]
   k: '{'
   l: [default, qwerty]
-- p: [22, 21]
-  k: '}'
-  l: [default, qwerty]
-- p: [7, 8]
-  k: Home
-  l: [default, qwerty]
-- p: [31, 32]
-  k: End
-  l: [default, qwerty]
-- p: [3, 4]
-  k: Ctl+ C
-  l: [default, qwerty]
-- p: [27, 28]
-  k: Ctl+ V
-  l: [default, qwerty]
 - p: [25, 26]
   k: <
-  l: [default, qwerty]
-- p: [33, 34]
-  k: '>'
-  l: [default, qwerty]
-- p: [26, 27]
-  k: '='
-  l: [default, qwerty]
-- p: [9, 10]
-  k: ':'
   l: [default, qwerty]
 - p: [2, 3]
   k: PRINTSCREEN
   l: [default, qwerty]
+- p: [15, 14]
+  k: '['
+  l: [default, qwerty]
+- p: [26, 27]
+  k: '='
+  l: [default, qwerty]
+- p: [3, 4]
+  k: Ctl+ C
+  l: [default, qwerty]
+- p: [15, 16]
+  k: (
+  l: [default, qwerty]
+- p: [27, 28]
+  k: Ctl+ V
+  l: [default, qwerty]
+- p: [7, 8]
+  k: Home
+  l: [default, qwerty]
+- p: [19, 20]
+  k: )
+  l: [default, qwerty]
+- p: [31, 32]
+  k: End
+  l: [default, qwerty]
+- p: [20, 21]
+  k: ']'
+  l: [default, qwerty]
 - p: [33, 32]
   k: '&colonX2'
   l: [default, qwerty]
-- p: [2, 1]
-  k: APPLICATION
+- p: [9, 10]
+  k: ':'
+  l: [default, qwerty]
+- p: [22, 21]
+  k: '}'
+  l: [default, qwerty]
+- p: [33, 34]
+  k: '>'
   l: [default, qwerty]
