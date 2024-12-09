@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   adjust:
   - Boot
-  - ''
+  - '&studio_unlock'
   - ''
   - ''
   - {t: default, h: toggle}
@@ -182,7 +182,7 @@ layers:
   - {t: default, h: toggle}
   - ''
   - ''
-  - ''
+  - '&studio_unlock'
   - Boot
   - BT CLR
   - BT 1

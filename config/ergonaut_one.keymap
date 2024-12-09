@@ -200,9 +200,9 @@
 
         adjust_layer {
             bindings = <
-&bootloader  &none         &none         &none         &tog 0        &tog 1        &tog 1        &tog 0        &none         &none         &none         &bootloader
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-&sys_reset   &bt BT_SEL 5  &bt BT_SEL 6  &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &bt BT_SEL 9  &bt BT_SEL 8  &bt BT_SEL 7  &bt BT_SEL 6  &bt BT_SEL 5  &sys_reset
+&bootloader  &studio_unlock    &none         &none         &tog 0        &tog 1        &tog 1        &tog 0        &none         &none         &studio_unlock    &bootloader
+&bt BT_CLR   &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0      &bt BT_CLR
+&sys_reset   &bt BT_SEL 5      &bt BT_SEL 6  &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &bt BT_SEL 9  &bt BT_SEL 8  &bt BT_SEL 7  &bt BT_SEL 6  &bt BT_SEL 5      &sys_reset
                                          &trans        &none         &trans        &trans        &trans        &trans
             >;
         };
