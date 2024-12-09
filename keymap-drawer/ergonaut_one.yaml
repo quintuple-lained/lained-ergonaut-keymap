@@ -266,3 +266,6 @@ combos:
 - p: [33, 34]
   k: '>'
   l: [default, qwerty]
+- p: [8, 9]
+  k: '&literallyme'
+  l: [default, qwerty]
