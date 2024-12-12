@@ -178,5 +178,5 @@ parse_config:
     UNDER: _
     UNDERSCORE: _
 draw_config:
-  footer_text: 'keymap-drawer &lt3'
+  footer_text: 'keymap-drawer ♥'
   dark_mode: true
