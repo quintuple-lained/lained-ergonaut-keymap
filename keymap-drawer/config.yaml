@@ -110,7 +110,7 @@ parse_config:
 
     PRINTSCREEN: '📷'
     HOME: '⌂'
-    APPLICATION: '☰'
+    K_APPLICATION: '☰'
 
     # defaults
     AMPERSAND: '&'
