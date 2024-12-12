@@ -70,8 +70,8 @@ layers:
   - {t: '-', h: Alt}
   - {t: Z, h: Ctl+ Z}
   - {t: X, h: Ctl+ X}
-  - {t: C, h: Ctl+ C}
-  - {t: V, h: Ctl+ V}
+  - {t: C, h: cpy}
+  - {t: V, h: pst}
   - B
   - N
   - M
@@ -136,7 +136,7 @@ layers:
   - ''
   - ''
   - Vol Up
-  - Home
+  - ⌂
   - Print Scrn
   - Page Up
   - SLCK
@@ -146,7 +146,7 @@ layers:
   - ''
   - ''
   - ''
-  - PRINTSCREEN
+  - 📷
   - ←
   - ↓
   - ↑
@@ -161,7 +161,7 @@ layers:
   - ''
   - Vol Down
   - End
-  - '&alt_f4'
+  - M+F4
   - Page Down
   - Pause Break
   - Alt
@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   adjust:
   - Boot
-  - '&studio_unlock'
+  - 🔓
   - ''
   - ''
   - {t: default, h: toggle}
@@ -182,7 +182,7 @@ layers:
   - {t: default, h: toggle}
   - ''
   - ''
-  - '&studio_unlock'
+  - 🔓
   - Boot
   - BT CLR
   - BT 1
@@ -225,7 +225,7 @@ combos:
   k: <
   l: [default, qwerty]
 - p: [2, 3]
-  k: PRINTSCREEN
+  k: 📷
   l: [default, qwerty]
 - p: [15, 14]
   k: '['
@@ -234,16 +234,16 @@ combos:
   k: '='
   l: [default, qwerty]
 - p: [3, 4]
-  k: Ctl+ C
+  k: cpy
   l: [default, qwerty]
 - p: [15, 16]
   k: (
   l: [default, qwerty]
 - p: [27, 28]
-  k: Ctl+ V
+  k: pst
   l: [default, qwerty]
 - p: [7, 8]
-  k: Home
+  k: ⌂
   l: [default, qwerty]
 - p: [19, 20]
   k: )
@@ -255,7 +255,7 @@ combos:
   k: ']'
   l: [default, qwerty]
 - p: [33, 32]
-  k: '&colonX2'
+  k: '::'
   l: [default, qwerty]
 - p: [9, 10]
   k: ':'
@@ -265,7 +265,4 @@ combos:
   l: [default, qwerty]
 - p: [33, 34]
   k: '>'
-  l: [default, qwerty]
-- p: [8, 9]
-  k: '&literallyme'
   l: [default, qwerty]

@@ -41,6 +41,11 @@ parse_config:
     '&mkp MCLK': Middle Click
     '&mkp MB4': Back Click
     '&mkp MB5': Forward Click
+    '&colonX2': '::'
+    '&alt_f4': M+F4
+    '&studio_unlock': '🔓'
+    '&kp LC(C)': 'cpy' 
+    '&kp LC(V)': 'pst'
 
   zmk_combos:
     combo_tab:    {align: top, o: 0.15}
@@ -102,6 +107,10 @@ parse_config:
     C_PP: ⏯
     C_NEXT: ⏭️
     C_PREV: ⏮️
+
+    PRINTSCREEN: '📷'
+    HOME: '⌂'
+    APPLICATION: '☰'
 
     # defaults
     AMPERSAND: '&'
@@ -169,5 +178,5 @@ parse_config:
     UNDER: _
     UNDERSCORE: _
 draw_config:
-  footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
+  footer_text: 'keymap-drawer \<3'
   dark_mode: true
