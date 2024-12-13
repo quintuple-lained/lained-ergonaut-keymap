@@ -77,6 +77,8 @@ parse_config:
 
     LCTRL: Ctrl
     RCTRL: Ctrl
+    RIGHT_CONTROL: R Ctrl
+    LEFT_GUI: L GUI
     LALT: Alt
     RALT: Alt
     LGUI: Gui
