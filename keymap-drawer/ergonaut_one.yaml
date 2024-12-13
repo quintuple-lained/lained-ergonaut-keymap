@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [2, 1]
-  k: APPLICATION
+  k: ☰
   l: [default, qwerty]
 - p: [13, 14]
   k: '{'
