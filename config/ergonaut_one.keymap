@@ -178,7 +178,7 @@
 
         raise_layer {
             bindings = <
-&none  &none     &mt F N4  &mt E N5      &mt D N6         &none          &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
+&none  &kp N0    &mt F N4  &mt E N5      &mt D N6         &none          &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
 &none  &colonX2  &mt C N1  &mt B N2      &mt A N3         &none          &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
 &none  &none     &kp N7    &kp N8        &mt FSLH N9      &none          &kp C_VOL_DN  &kp END   &alt_f4    &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
                            &mt DEL BSPC  &mt LS(TAB) TAB  &mt COLON DOT  &trans        &trans    &trans

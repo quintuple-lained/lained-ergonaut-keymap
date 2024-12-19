@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - ''
-  - ''
+  - '0'
   - {t: '4', h: F}
   - {t: '5', h: E}
   - {t: '6', h: D}
