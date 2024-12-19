@@ -165,7 +165,7 @@ layers:
   - Page Down
   - Pause Break
   - Alt
-  - {t: BACKSPACE, h: ⌦, type: held}
+  - {t: ⌫, h: ⌦, type: held}
   - {t: ↹, h: Win Prev}
   - {t: ., h: ':'}
   - {t: ▽, type: trans}
