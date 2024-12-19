@@ -178,19 +178,19 @@
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &none  &none  &none   &none   &none            &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &none  &none  &none   &none   &kp PRINTSCREEN  &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
-&kp LALT         &none  &none  &none   &none   &none            &kp C_VOL_DN  &kp END   &alt_f4    &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
-                               &trans  &trans  &trans           &trans        &trans    &trans
+&none  &none     &mt F N6  &mt E N5           &mt D N4         &none          &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
+&none  &colonX2  &mt C N3  &mt B N2           &mt A N1         &none          &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
+&none  &none     &kp N9    &kp N8             &mt FSLH N7      &none          &kp C_VOL_DN  &kp END   &alt_f4    &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
+                           &mt DEL BACKSPACE  &mt LS(TAB) TAB  &mt COLON DOT  &trans        &trans    &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-&bootloader  &studio_unlock    &none         &none         &tog 0        &tog 1        &tog 1        &tog 0        &none         &none         &studio_unlock    &bootloader
-&bt BT_CLR   &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0      &bt BT_CLR
-&sys_reset   &bt BT_SEL 5      &bt BT_SEL 6  &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &bt BT_SEL 9  &bt BT_SEL 8  &bt BT_SEL 7  &bt BT_SEL 6  &bt BT_SEL 5      &sys_reset
-                                         &trans        &none         &trans        &trans        &trans        &trans
+&bootloader  &studio_unlock  &none         &none         &tog 0        &tog 1        &tog 1        &tog 0        &none         &none         &studio_unlock  &bootloader
+&bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
+&sys_reset   &bt BT_SEL 5    &bt BT_SEL 6  &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &bt BT_SEL 9  &bt BT_SEL 8  &bt BT_SEL 7  &bt BT_SEL 6  &bt BT_SEL 5    &sys_reset
+                                           &trans        &none         &trans        &trans        &trans        &trans
             >;
         };
     };

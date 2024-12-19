@@ -68,8 +68,8 @@ layers:
   - ;
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
-  - {t: Z, h: Ctl+ Z}
-  - {t: X, h: Ctl+ X}
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
   - {t: C, h: cpy}
   - {t: V, h: pst}
   - B
@@ -111,16 +111,16 @@ layers:
   - )
   - {t: '-', h: Ctrl}
   - {t: '=', h: Alt}
-  - {t: '1', h: Gui+ 1}
-  - {t: '2', h: Gui+ 2}
-  - {t: '3', h: Gui+ 3}
-  - {t: '4', h: Gui+ 4}
-  - {t: '5', h: Gui+ 5}
-  - {t: '6', h: Gui+ 6}
-  - {t: '7', h: Gui+ 7}
-  - {t: '8', h: Gui+ 8}
-  - {t: '9', h: Gui+ 9}
-  - {t: '0', h: Gui+ 0}
+  - {t: '1', h: Gui+1}
+  - {t: '2', h: Gui+2}
+  - {t: '3', h: Gui+3}
+  - {t: '4', h: Gui+4}
+  - {t: '5', h: Gui+5}
+  - {t: '6', h: Gui+6}
+  - {t: '7', h: Gui+7}
+  - {t: '8', h: Gui+8}
+  - {t: '9', h: Gui+9}
+  - {t: '0', h: Gui+0}
   - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,11 +129,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: KP NUM, h: Gui}
   - ''
   - ''
-  - ''
-  - ''
+  - {t: '6', h: F}
+  - {t: '5', h: E}
+  - {t: '4', h: D}
   - ''
   - Vol Up
   - ⌂
@@ -141,23 +141,23 @@ layers:
   - Page Up
   - SLCK
   - CLCK
-  - {t: '=', h: Ctrl}
   - ''
+  - '::'
+  - {t: '3', h: C}
+  - {t: '2', h: B}
+  - {t: '1', h: A}
   - ''
-  - ''
-  - ''
-  - 📷
   - ←
   - ↓
   - ↑
   - →
   - Insert
   - {t: APP, h: Ctrl}
-  - Alt
   - ''
   - ''
-  - ''
-  - ''
+  - '9'
+  - '8'
+  - {t: '7', h: /}
   - ''
   - Vol Down
   - End
@@ -165,9 +165,9 @@ layers:
   - Page Down
   - Pause Break
   - Alt
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BACKSPACE, h: ⌦, type: held}
+  - {t: ↹, h: Win Prev}
+  - {t: ., h: ':'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
