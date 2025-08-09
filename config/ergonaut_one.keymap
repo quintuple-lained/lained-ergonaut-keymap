@@ -132,11 +132,13 @@
         pg_up {
             bindings = <&kp PG_UP>;
             key-positions = <6 7>;
+            layers = <0 1>;
         };
 
         pg_down {
             bindings = <&kp PG_DN>;
             key-positions = <30 31>;
+            layers = <0 1>;
         };
     };
 
