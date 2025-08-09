@@ -87,7 +87,7 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
   gaming:
-  - {t: ']', h: Gui}
+  - Esc
   - T
   - Q
   - W
@@ -99,7 +99,7 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - LEFT ALT
   - G
   - A
   - S
@@ -111,7 +111,7 @@ layers:
   - L
   - ;
   - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ↹
   - B
   - Z
   - X
@@ -123,9 +123,9 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: Esc, h: raise}
-  - {t: ↹, h: Shift}
-  - {t: ␣, h: lower}
+  - LEFT CONTROL
+  - Shift
+  - ␣
   - {t: ENTER, h: lower}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
@@ -219,9 +219,9 @@ layers:
   - Boot
   - 🔓
   - ''
-  - ''
-  - {t: default, h: toggle}
+  - {t: gaming, h: toggle}
   - {t: qwerty, h: toggle}
+  - {t: default, h: toggle}
   - {t: qwerty, h: toggle}
   - {t: default, h: toggle}
   - ''
