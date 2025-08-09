@@ -181,10 +181,10 @@
 
         gaming {
             bindings = <
-&mt LGUI RBKT    &kp T        &kp Q        &kp W        &kp E        &kp R                  &kp Y        &kp U           &kp I      &kp O    &kp P     &kp LBKT
-&mt LCTRL GRAVE  &kp G        &kp A        &kp S        &kp D        &kp F                  &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT MINUS   &kp B        &kp Z        &kp X        &kp C        &kp V                  &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
-                                           &lt 4 ESC    &mt LSHFT TAB  &lt 3 SPACE  &lt 3 ENTER  &mt RSHFT BSPC  &lt 4 DEL
+&kp ESC       &kp T  &kp Q  &kp W             &kp E      &kp R      &kp Y        &kp U           &kp I      &kp O    &kp P     &kp LBKT
+&kp LEFT_ALT  &kp G  &kp A  &kp S             &kp D      &kp F      &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
+&kp TAB       &kp B  &kp Z  &kp X             &kp C      &kp V      &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+                            &kp LEFT_CONTROL  &kp LSHFT  &kp SPACE  &lt 3 ENTER  &mt RSHFT BSPC  &lt 4 DEL
             >;
         };
 
@@ -208,7 +208,7 @@
 
         adjust_layer {
             bindings = <
-&bootloader  &studio_unlock  &none         &none         &tog 0        &tog 1        &tog 1        &tog 0        &none         &none         &studio_unlock  &bootloader
+&bootloader  &studio_unlock  &none         &tog 2        &tog 1        &tog 0        &tog 1        &tog 0        &none         &none         &studio_unlock  &bootloader
 &bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
 &sys_reset   &bt BT_SEL 5    &bt BT_SEL 6  &bt BT_SEL 7  &bt BT_SEL 8  &bt BT_SEL 9  &bt BT_SEL 9  &bt BT_SEL 8  &bt BT_SEL 7  &bt BT_SEL 6  &bt BT_SEL 5    &sys_reset
                                            &trans        &none         &trans        &trans        &trans        &trans
