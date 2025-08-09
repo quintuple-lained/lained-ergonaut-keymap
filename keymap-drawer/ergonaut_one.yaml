@@ -87,45 +87,45 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
   gaming:
-  - {t: ']', h: Gui}
+  - Esc
+  - T
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - LEFT ALT
+  - G
   - A
   - S
   - D
   - F
-  - G
   - H
   - J
   - K
   - L
   - ;
   - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
-  - {t: Z, h: Ctl+Z}
-  - {t: X, h: Ctl+X}
-  - {t: C, h: cpy}
-  - {t: V, h: pst}
+  - ↹
   - B
+  - Z
+  - X
+  - C
+  - V
   - N
   - M
   - ','
   - .
   - /
   - {t: \, h: Alt}
-  - {t: Esc, h: raise}
-  - {t: ↹, h: Shift}
-  - {t: ␣, h: lower}
+  - LEFT CONTROL
+  - Shift
+  - ␣
   - {t: ENTER, h: lower}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
@@ -219,9 +219,9 @@ layers:
   - Boot
   - 🔓
   - ''
-  - ''
-  - {t: default, h: toggle}
+  - {t: gaming, h: toggle}
   - {t: qwerty, h: toggle}
+  - {t: default, h: toggle}
   - {t: qwerty, h: toggle}
   - {t: default, h: toggle}
   - ''
