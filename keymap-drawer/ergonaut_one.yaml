@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - {t: ']', h: Gui}
@@ -43,6 +44,49 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
   qwerty:
+  - {t: ']', h: Gui}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - {t: '`', h: Ctrl}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: Ctrl}
+  - {t: '-', h: Alt}
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: cpy}
+  - {t: V, h: pst}
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: \, h: Alt}
+  - {t: Esc, h: raise}
+  - {t: ↹, h: Shift}
+  - {t: ␣, h: lower}
+  - {t: ENTER, h: lower}
+  - {t: ⌫, h: Shift}
+  - {t: ⌦, h: raise}
+  gaming:
   - {t: ']', h: Gui}
   - Q
   - W
