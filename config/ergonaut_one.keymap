@@ -181,7 +181,7 @@
 
         gaming {
             bindings = <
-&kp ESC       &kp T  &kp Q  &kp W             &kp E      &kp R      &kp Y        &kp U           &kp I      &kp O    &kp P     &kp LBKT
+&kp ESC       &kp T  &kp Q  &kp W             &kp E      &kp R      &kp Y        &kp U           &kp I      &kp O    &kp P     &tog 0
 &kp LEFT_ALT  &kp G  &kp A  &kp S             &kp D      &kp F      &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
 &kp TAB       &kp B  &kp Z  &kp X             &kp C      &kp V      &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
                             &kp LEFT_CONTROL  &kp LSHFT  &kp SPACE  &lt 3 ENTER  &mt RSHFT BSPC  &lt 4 DEL
