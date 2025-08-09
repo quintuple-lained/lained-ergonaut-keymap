@@ -88,11 +88,11 @@ layers:
   - {t: ⌦, h: raise}
   gaming:
   - {t: ']', h: Gui}
+  - T
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
@@ -100,11 +100,11 @@ layers:
   - P
   - '['
   - {t: '`', h: Ctrl}
+  - G
   - A
   - S
   - D
   - F
-  - G
   - H
   - J
   - K
@@ -112,11 +112,11 @@ layers:
   - ;
   - {t: '''', h: Ctrl}
   - {t: '-', h: Alt}
-  - {t: Z, h: Ctl+Z}
-  - {t: X, h: Ctl+X}
-  - {t: C, h: cpy}
-  - {t: V, h: pst}
   - B
+  - Z
+  - X
+  - C
+  - V
   - N
   - M
   - ','
