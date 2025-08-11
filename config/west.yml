@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ergonautkb
-      url-base: https://github.com/ergonautkb
+    - name: quintuple-lained
+      url-base: https://github.com/quintuple-lained
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: ergonautkb-zmk-module
-      remote: ergonautkb
+      remote: quintuple-lained
       revision: main
   self:
     path: config
