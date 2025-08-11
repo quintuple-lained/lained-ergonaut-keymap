@@ -1,5 +1,7 @@
 # ZMK Firmware for Ergonaut One keyboard
 
+nonfunctioning fork with dongle
+
 This is my repository for my ZMK Firmware for my Ergonaut One keyboard.
 
 
