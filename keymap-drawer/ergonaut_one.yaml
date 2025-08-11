@@ -312,5 +312,9 @@ combos:
   l: [default, qwerty]
 - p: [6, 7]
   k: Page Up
+  l: [default, qwerty]
 - p: [30, 31]
   k: Page Down
+  l: [default, qwerty]
+- p: [0, 5]
+  k: {t: default, h: toggle}
