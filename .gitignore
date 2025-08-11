@@ -1,1 +1,5 @@
 .direnv/
+build/
+modules/
+zephyr/
+zmk/
