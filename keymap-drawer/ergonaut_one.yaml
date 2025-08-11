@@ -98,7 +98,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: default, h: toggle}
   - LEFT ALT
   - G
   - A
