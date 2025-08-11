@@ -218,7 +218,7 @@ layers:
   adjust:
   - Boot
   - 🔓
-  - ''
+  - OUT TOG
   - {t: gaming, h: toggle}
   - {t: qwerty, h: toggle}
   - {t: default, h: toggle}
