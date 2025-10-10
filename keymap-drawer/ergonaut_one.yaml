@@ -318,3 +318,4 @@ combos:
   l: [default, qwerty]
 - p: [0, 5]
   k: {t: default, h: toggle}
+  l: [gaming]

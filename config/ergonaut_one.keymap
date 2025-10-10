@@ -144,6 +144,7 @@
         gaming_rescue {
             bindings = <&tog 0>;
             key-positions = <0 5>;
+            layers = <2>;
         };
     };
 
