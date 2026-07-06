@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
-  - {t: ']', h: Gui}
+  - Esc
   - Q
   - W
   - F
@@ -37,9 +37,9 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: Esc, h: raise}
+  - {t: Esc, h: lower}
   - {t: ↹, h: Shift}
-  - {t: ␣, h: lower}
+  - {t: ␣, h: raise}
   - {t: ENTER, h: lower}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
@@ -166,9 +166,9 @@ layers:
   - {t: '9', h: Gui+9}
   - {t: '0', h: Gui+0}
   - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -209,9 +209,9 @@ layers:
   - Page Down
   - Pause Break
   - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -319,3 +319,5 @@ combos:
 - p: [0, 5]
   k: {t: default, h: toggle}
   l: [gaming]
+- p: [8, 9]
+  k: ⌦
