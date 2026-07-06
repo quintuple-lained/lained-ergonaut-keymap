@@ -150,6 +150,7 @@
         rm {
             bindings = <&kp DEL>;
             key-positions = <8 9>;
+            layers = <0 1>;
         };
     };
 
